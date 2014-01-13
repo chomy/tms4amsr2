@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript" src="http://www.openlayers.org/dev/OpenLayers.js"></script>
+<style type='text/css'>
+#canvas .olControlAttribution {
+	bottom:3px;
+}
+
+#canvas {width: 100%; height 100%;}
+body {padding-top: 50px;}
+</style>
+<script type="text/javascript" src="./sst.js"></script>
+</head>
+
+<body onload="init();">
+  <div class="navbar navbar-default navbar-fixed-top">
+    <p class="navbar-text navbar-center" style="text-align:center; font-size: large;">GCOM-W1（しずく）海水表面温度 &nbsp;&nbsp;2014-01-11 (UTC)</p>
+<!--    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">SST</a></li>
+      <li><a href="#">SSW</a></li>
+      <li><a href="#">SND</a></li>
+      <li><a href="#">About</a></li>-->
+
+    </ul>
+  </div>
+
+
+<div id="canvas"></div>
+</body>
+</html>
