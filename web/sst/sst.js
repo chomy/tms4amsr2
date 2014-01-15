@@ -24,7 +24,7 @@ function init() {
 					type:'png',
 					alpha: true,
 					isBaseLayer: false,
-					attribution: 'Original Data Provided by JAX/A <img src="http://tms.hi-rezclimate.org/amsr2/sst/sst_scale.png">',
+					attribution: 'Original Data Provided by JAXA <img src="http://tms.hi-rezclimate.org/amsr2/sst/sst_scale.png">',
 					opacity: 0.7
 				       }
 				      );
